@@ -1,0 +1,170 @@
+#field {
+    width: 40vw;
+    height: 85vh;
+    opacity: 0.8;
+    margin: 0 auto;
+    position: relative;
+    border: 3.5px dotted white;
+
+
+}
+
+#field div {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+/* Goalkeeper */
+#p1 {
+    position: relative;
+    padding: 0.5%;
+    top: 83%;
+    left: 46%;
+    background-color: gray;
+}
+
+
+
+
+/* Left Back */
+#p2 {
+    position: relative;
+    padding: 0.5%;
+    top: 64%;
+    left: 13%;
+    background-color: gray;
+}
+
+
+
+/* Left Center Back */
+
+#p3 {
+    position: relative;
+    padding: 0.5%;
+    top: 70%;
+    left: 33%;
+    background-color: gray;
+}
+
+/* Right Center Back */
+#p4 {
+    position: relative;
+    padding: 0.5%;
+    top: 70%;
+    left: 59%;
+    background-color: gray;
+}
+
+/* Right Back */
+#p5 {
+    position: relative;
+    padding: 0.5%;
+    top: 65%;
+    left: 82%;
+    background-color: gray;
+}
+
+
+/* Left Midfielder */
+#p6 {
+    position: relative;
+    padding: 0.5%;
+    top: 45%;
+    left: 12%;
+    background-color: gray;
+}
+
+/* Left Center Midfielder */
+#p7 {
+    position: relative;
+    padding: 0.5%;
+    top: 54%;
+    left: 30%;
+    background-color: gray;
+}
+
+
+/* Right Center Midfielder */
+#p8 {
+    position: relative;
+    padding: 0.5%;
+    top: 54%;
+    left: 58%;
+    background-color: gray;
+}
+
+/* Right Midfielder */
+#p9 {
+    position: relative;
+    padding: 0.5%;
+    top: 45%;
+    left: 72%;
+    background-color: gray;
+}
+
+/* Left Forward */
+#p10 {
+    position: relative;
+    padding: 0.5%;
+    top: 35%;
+    left: 25%;
+    background-color: gray;
+}
+
+/* Right Forward */
+#p11 {
+    position: relative;
+    padding: 0.5%;
+    top: 35%;
+    left: 59%;
+    background-color: gray;
+}
+
+
+
+#teamRating {
+    top: 15%;
+    right: 8%;
+    margin: 10px;
+    color: white;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 1%;
+}
+
+#buttonFormationBox{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    height: auto;
+    top: 15%;
+    left: 2%;
+ 
+    position: absolute;
+}
+#buttonFormationBox button{
+  
+   
+    width: 100%;
+    border: none;
+    cursor: pointer;
+   padding: 1.5%;
+   margin: 0.5%;
+   transition: 0.5s ease-in-out;
+}#buttonFormationBox button:hover{
+    background-color:gray;
+    opacity: 0.9;
+}
+#chooseTeamDiv{
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    background-color: white;
+     
+}#help{
+    position: absolute;
+    background-color: white;
+    width: 25%;
+}

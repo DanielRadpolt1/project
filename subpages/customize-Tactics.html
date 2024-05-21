@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/customizeTactics.css">
+  <script src="../js/customizeTactics.js" defer></script>
+  <title>StartPage</title>
+</head>
+
+<body
+  style="background-image: url(../img/custTacBackground.jpg); background-attachment: fixed;background-size: cover; background-repeat: no-repeat;">
+  <div id="field">
+    <img src="../img/Field.jpg" id="fieldimg" alt="field" style="width: 100%; height: 100%;">
+
+  </div>
+
+  <div id="teamRating"></div>
+  <div id="buttonFormationBox">
+    <button class="formation" onclick="changeFormationTo442()">4-4-2</button>
+    <button class="formation" onclick="changeFormationTo4231()">4-2-3-1</button>
+    <button class="formation">3-4-3</button>
+    <button class="formation">4-2-1-3</button>
+  </div>
+
+  <div id="chooseTeamDiv">
+    <select id="chooseTeam" onchange="loadTeamOnchange()">
+
+    </select>
+  </div>
+<div id="help"><img src="../img/Helpbutton.png"></div>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+/*StartPage*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.foo {
+    padding: 10px;
+    border-image: url(frame.png) 40 round
+}
+
+#mainbody {
+    background-image: url(../img/MainpagePic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main {
+    color: white;
+    text-align: center;
+
+}
+
+#mainNav {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.5%;
+    width: 20%;
+    margin-left: 39%;
+    margin-top: 45vh;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    color: white;
+    background-color: black;
+    font-size: 220%;
+    border: black;
+
+}
+
+#mainNav:hover {
+    color: black;
+    border: white;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+
+
+/*2nd Page for Navigation*/
+
+#secondNav {
+    background-image: url(../img/netpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.5rem;
+}
+
+#teamc {
+    background-color: white;
+
+    padding: 1%;
+    width: 15%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#teamc:hover {
+    scale: 1.2;
+}
+
+#custT {
+    text-align: center;
+    background-color: white;
+    width: 15%;
+    padding: 1%;
+    margin-top: 10%;
+    margin-left: 65%;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#custT:hover {
+    scale: 1.2;
+}
+
+
+#simG:hover {
+    scale: 1.2;
+}
+
+#simG {
+    background-color: white;
+    padding: 1%;
+
+    border-radius: 5px;
+    width: 15%;
+    margin-left: 35%;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*CreateTeam*/
+
+
+#createTeamMain {
+    background-image: url(../img/CreatePage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#teamcr {
+    background-color: white;
+
+    padding: 1%;
+    width: 15%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 20%;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+.createTeamButton {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.createTeamButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#playerc {
+    background-color: white;
+
+    padding: 1%;
+    width: 15%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 20%;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3%;
+    border-radius: 15px;
+    display: flex;
+}
+
+#m {
+    display: flex;
+}
+
+#plusDiv {}
+
+
+
+
+
+
+
+#video_background {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+#video_pattern {
+
+    position: fixed;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+#trikotimg {
+    width: 50%;
+    height: 55%;
+}
+
+#imgbox {
+    margin-left: 45%;
+    position: absolute;
+
+    text-align: center;
+    margin-top: -5%;
+}
+
+#playerName {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 30.5%;
+    z-index: 1;
+    margin-top: 15%;
+}
+
+#numberOnBack {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 30.5%;
+    z-index: 1;
+    margin-top: 3%;
+}
+
+#B {}
+
+#plusDivPLayer {
+    margin-left: 45%;
+    margin-top: 5%;
+    position: absolute;
+    text-align: center;
+}
+
+#AtributtesBox {
+    position: absolute;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background-color: white;
+    margin-left: 35%;
+
+    margin-top: 5%;
+}
+
+#addMessage {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+    text-align: center;
+    border: 2px solid white;
+    background-color: white;
+}
